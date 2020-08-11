@@ -26,9 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6hz+e7%-efbdvhu0)y9y89wjwmtcm23@)5ft%=(^3ticc2jipr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://myrusume.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
